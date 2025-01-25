@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+    background-color: black;
+}
+
+.corpo {
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+input {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.botoes {
+    max-width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cor_dif00 {
+    background-color: gray;
+
+}
+
+.cor_dif01 {
+    background-color: orange;
+}
+
+.display {
+    background-color: black;
+    border: none;
+    color: white;
+}
