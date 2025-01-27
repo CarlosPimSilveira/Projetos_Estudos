@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <link rel="stylesheet" href="../Pro_01/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/index.js"></script>
 </head>
 <body>
@@ -13,26 +13,26 @@
             <input type="text" name="display" id="idisplay" class="display" readonly>
         </div>
         <div class="corpo_calc_botoes">
-            <input type="button" value="AC" onclick="" class="cor_dif00">
+            <input type="button" value="AC" onclick="Limp()" class="cor_dif00">
             <input type="button" value="+/-" onclick="" class="cor_dif00">
-            <input type="button" value="%" onclick="" class="cor_dif00">
-            <input type="button" value="/" onclick="" class="cor_dif01">
-            <input type="button" value="7" onclick="nume(7)" class="cor_dif02">
-            <input type="button" value="8" onclick="nume(8)" class="cor_dif02">
-            <input type="button" value="9" onclick="nume(9)" class="cor_dif02">
-            <input type="button" value="*" onclick="" class="cor_dif01">
-            <input type="button" value="4" onclick="nume(4)" class="cor_dif02">
-            <input type="button" value="5" onclick="nume(5)" class="cor_dif02">
-            <input type="button" value="6" onclick="nume(6)" class="cor_dif02">
-            <input type="button" value="-" onclick="" class="cor_dif01">
-            <input type="button" value="1" onclick="nume(1)" class="cor_dif02">
-            <input type="button" value="2" onclick="nume(2)" class="cor_dif02">
-            <input type="button" value="3" onclick="nume(3)" class="cor_dif02">
-            <input type="button" value="+" onclick="" class="cor_dif01">
+            <input type="button" value="%" onclick="AdCalc('%')" class="cor_dif00">
+            <input type="button" value="/" onclick="AdCalc('/')" class="cor_dif01">
+            <input type="button" value="7" onclick="AdCalc(7)" class="cor_dif02">
+            <input type="button" value="8" onclick="AdCalc(8)" class="cor_dif02">
+            <input type="button" value="9" onclick="AdCalc(9)" class="cor_dif02">
+            <input type="button" value="*" onclick="AdCalc('*')" class="cor_dif01">
+            <input type="button" value="4" onclick="AdCalc(4)" class="cor_dif02">
+            <input type="button" value="5" onclick="AdCalc(5)" class="cor_dif02">
+            <input type="button" value="6" onclick="AdCalc(6)" class="cor_dif02">
+            <input type="button" value="-" onclick="AdCalc('-')" class="cor_dif01">
+            <input type="button" value="1" onclick="AdCalc(1)" class="cor_dif02">
+            <input type="button" value="2" onclick="AdCalc(2)" class="cor_dif02">
+            <input type="button" value="3" onclick="AdCalc(3)" class="cor_dif02">
+            <input type="button" value="+" onclick="AdCalc('+')" class="cor_dif01">
             <input type="button" value="C" onclick="" class="cor_dif02">
-            <input type="button" value="0" onclick="nume(0)" class="cor_dif02">
-            <input type="button" value="," onclick="" class="cor_dif02">
-            <input type="button" value="=" onclick="" class="cor_dif01">
+            <input type="button" value="0" onclick="AdCalc(0)" class="cor_dif02">
+            <input type="button" value="," onclick="AdCalc('.')" class="cor_dif02">
+            <input type="button" value="=" onclick="Calc()" class="cor_dif01" >
         </div>
     </div>
 </body>
