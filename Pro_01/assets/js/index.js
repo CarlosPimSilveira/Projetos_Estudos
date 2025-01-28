@@ -12,12 +12,14 @@ function AdCalc(string) {
 
 function Calc() {
     const display = document.getElementById('idisplay');
-
-    display.value = eval(display.value);
+    const hist = document.getElementsByClassName('historico')[0];
+    hist.innerHTML = `<p>${display.value}</p>`
+    display.value = eval(display.value)
+    
 }
 
 function Limp() {
-    const display = document.getElementById('idisplay')
+    const display = document.querySelector('#idisplay')
     let texto = display.value
        
     texto = texto.slice(0, -1)
