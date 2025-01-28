@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.container {
+    max-width: 550px;
+    min-width: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carrossel {
+    display: flex;
+    gap: 1.2rem;
+    animation: scrollCards 12s linear infinite;
+}
+
+.card {
+    background: linear-gradient(to right, black, gray);
+    min-height: 350px;
+    min-width: 450px;
+    border-radius: 40px;
+    scroll-snap-align: center;
+}
+
+/*
+@keyframes scrollCards {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+}
+}*/
