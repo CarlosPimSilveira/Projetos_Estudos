@@ -15,7 +15,6 @@ function Calc() {
     const hist = document.getElementsByClassName('historico')[0];
     hist.innerHTML = `<p>${display.value}</p>`
     display.value = eval(display.value)
-    
 }
 
 function Limp() {
