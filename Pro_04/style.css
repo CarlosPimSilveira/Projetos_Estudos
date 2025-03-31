@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.player {
+    position: fixed; 
+    bottom: 0; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.player-objeto {
+    background-color: white;
+    width: 150px;
+    height: 20px;
+    position: relative; 
+    left: 0;
+}
+
+.bolinha {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute; /* Necessário para mover a bolinha */
+    left: 50%; /* Inicializa no centro horizontal */
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+}
