@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    color: #026772;
+    font-weight: 700;
+}
+
+.login {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.login_campos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login_campos input[type="text"],
+.login_campos input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login_campos button {
+    padding: 10px;
+    border: none;
+    background-color: #026772;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login_campos button:hover {
+    background-color: #024149;
+}
+
+.login_campos h1 {
+    text-align: center;
+    color: #026772;
+}
+
+.login_campos hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(to right, transparent, #026772, transparent);
+    margin: 10px 0;
+}
+
+.login_new_conta {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login_new_conta .cadastro {
+    background: none;
+    border: none;
+    color: #2b7bff;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.login_new_conta .cadastro:hover {
+    color: #1a5fd3;
+}
