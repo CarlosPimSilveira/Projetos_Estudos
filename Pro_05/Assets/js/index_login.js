@@ -1,15 +1,3 @@
-// Função para cadastrar uma nova conta
-function cadastrar() {
-    const loginInput = document.getElementById("id_login").value;
-    const senhaInput = document.getElementById("id_senha").value;
-
-    // Salvamos os dados com chaves específicas no localStorage
-    localStorage.setItem("stored_login", loginInput);
-    localStorage.setItem("stored_senha", senhaInput);
-
-    alert("Cadastro realizado com sucesso!");
-}
-
 // Função para verificar as credenciais do usuário
 function verificar() {
     // Obtém os valores digitados pelo usuário
